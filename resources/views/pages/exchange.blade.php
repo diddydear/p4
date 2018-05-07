@@ -93,6 +93,7 @@
                 <label class="custom-control-label" for="isOutstanding">Is this payment completed?</label>
             </div>
             <br>
+            <input type='hidden' name='_token' value='{{ csrf_field() }}'>
             <input name="submit" value="Submit" class="btn btn-primary btn-lg btn-block" type="submit">
         </form>
     </div>

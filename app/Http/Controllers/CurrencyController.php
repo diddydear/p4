@@ -11,11 +11,13 @@ class CurrencyController extends Controller
         return view('exchange.calc');
     }
 
-    public function currency()
+    public function currency(Request $request)
     {
-        $sellingCurrency = $_POST['sellingCurrency'];
-        $buyingCurrency = $_POST['buyingCurrency'];
-        $buyingAmount = $_POST['buyingAmount'];
+        //Getting Form Data from Exchange Page
+        $request->input('sellingCurrency');
+        $request->input('buyingCurrency');
+        $request->input('buyingAmount');
+
         return view('exchange.currency');
     }
 
