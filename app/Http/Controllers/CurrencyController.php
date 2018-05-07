@@ -6,8 +6,17 @@ use Illuminate\Http\Request;
 
 class CurrencyController extends Controller
 {
-    public function index()
+    public function calc()
     {
-        return "This is cool";
+        return view('exchange.calc');
     }
+
+    public function currency()
+    {
+        $sellingCurrency = $_POST['sellingCurrency'];
+        $buyingCurrency = $_POST['buyingCurrency'];
+        $buyingAmount = $_POST['buyingAmount'];
+        return view('exchange.currency');
+    }
+
 }

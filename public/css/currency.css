@@ -36,5 +36,7 @@ html {
 }
 
 .footer-padding {
-    padding: 15px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
 }

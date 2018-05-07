@@ -9,9 +9,12 @@
 @endpush
 
 @section('content')
-    <h1>{{ 'Contact Us' }}</h1>
+    <div class="text-center">
+        <h1>{{ 'Contact Page' }}</h1>
 
-    <p>
-        Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.
-    </p>
+        <p>
+            Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add
+            your own fullscreen background photo to make it your own.
+        </p>
+    </div>
 @endsection
