@@ -22,7 +22,12 @@
 <div class="bg-page">
     @include ('modules.menu')
     <div class="container top-padding-150 ">
+        @if(session('alert'))
+            <div class="alert alert-info">{{ session('alert') }}</div>
+        @endif
+
         @yield('content')
+
     </div>
 
 
@@ -33,7 +38,7 @@
 <footer class="mastfoot mt-auto footer-padding text-center">
     <div class="inner footer-padding">
         <hr class="mb-4">
-        <p>&copy; {{ date('Y') }} <a href="https://p4.diddydear.com/">Currency Exchanger</p>
+        <p>&copy; {{ date('Y') }} <a href="https://p4.diddydear.com/">Currency Exchanger</a></p>
     </div>
 </footer>
 

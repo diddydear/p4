@@ -32,11 +32,15 @@
                 <div class="white-box">
                     <h1><b>TRAVELLING ABROAD?</b></h1>
                     <h4>We got You Covered</h4>
-                    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download,
-                        edit the text, and add your own fullscreen background photo to make it your own.</p>
+                    <p class="lead">
+                        Currency Exchanger ensures instant
+                        and reliable access to currency exchange for travelers.
+                        With the app, you can now exchange any currency with the Nigerian Naira.
+                        Its a safe, secure and reliable platform to exchange currencies on the go.
+                    </p>
                     <p class="lead">
 
-                        <a href="#" class="btn btn-lg btn-success">Start Here</a>
+                        <a href="/exchange" class="btn btn-lg btn-success">Start Here</a>
                     </p>
                 </div>
             </div>
@@ -49,7 +53,7 @@
 
 <footer class="mastfoot mt-auto footer-padding">
     <div class="inner footer-padding">
-        <p>&copy; {{ date('Y') }} <a href="https://p4.diddydear.com/">Currency Exchanger</p>
+        <p>&copy; {{ date('Y') }} <a href="https://p4.diddydear.com/">Currency Exchanger</a></p>
     </div>
 </footer>
 
