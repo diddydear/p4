@@ -8,7 +8,7 @@ Primary tables:
   + `Currencies`
   
 Pivot table(s):
-  + `Exchanges`
+  + `Locals`
 
 ## CRUD
 __Create__
