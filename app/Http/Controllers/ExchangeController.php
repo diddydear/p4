@@ -41,7 +41,7 @@ class ExchangeController extends Controller
             'agreeTerms' => 'accepted',
             'accountName' => 'required',
             'bankName' => 'required',
-            'accountNumber' => 'required',
+            'accountNumber' => 'digits:10',
         ]);
 
         $getRate = $request->input('buyingCurrency');
@@ -114,7 +114,7 @@ class ExchangeController extends Controller
             'agreeTerms' => 'accepted',
             'accountName' => 'required',
             'bankName' => 'required',
-            'accountNumber' => 'required',
+            'accountNumber' => 'digits:10',
         ]);
 
         $exchange = Exchange::find($id);

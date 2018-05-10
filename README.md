@@ -44,4 +44,3 @@ __Delete__
 + Create Operation happens when the form on the exchange page is filled and submitted.
 + Update Operation - After form insertion on exchange page, user is redirected to .../exchange/details. This contains the update and delete operations.
 + The .../exchange/details expects a parameter to be parsed. 
-

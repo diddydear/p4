@@ -23,8 +23,8 @@ class CreateExchangesTable extends Migration
             $table->float('selling_amount');
             $table->string('agree_terms', 4);
             $table->string('transaction_id', 32);
-            $table->string('account_number', 8)->nullable();
-            $table->string('bank_name', 8)->nullable();
+            $table->string('account_number', 10)->nullable();
+            $table->string('bank_name')->nullable();
         });
     }
 
