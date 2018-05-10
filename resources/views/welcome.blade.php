@@ -36,7 +36,7 @@
                         Currency Exchanger ensures instant
                         and reliable access to currency exchange for travelers.
                         With the app, you can now exchange any currency with the Nigerian Naira.
-                        Its a safe, secure and reliable platform to exchange currencies on the go.
+                        It's a safe, secure and reliable platform to exchange currencies on the go.
                     </p>
                     <p class="lead">
 

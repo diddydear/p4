@@ -11,10 +11,8 @@
 @section('content')
     <div class="text-center">
         <h1>{{ 'Contact Page' }}</h1>
-
         <p>
-            Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add
-            your own fullscreen background photo to make it your own.
+            Having issues? Please contact us via email - info@p4.diddydear.com
         </p>
     </div>
 @endsection
